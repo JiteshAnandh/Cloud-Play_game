@@ -1,0 +1,35 @@
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# VS Code
+.vscode/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python build/package files
+build/
+dist/
+*.egg-info/
+
+# Test / coverage output
+.pytest_cache/
+.coverage
+htmlcov/

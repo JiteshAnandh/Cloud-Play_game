@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: cloud-arena-server
+    runtime: python
+    plan: free
+    buildCommand: pip install -r server/requirements.txt
+    startCommand: python server/server.py
+    envVars:
+      - key: PORT
+        value: 10000
